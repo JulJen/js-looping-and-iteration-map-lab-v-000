@@ -19,5 +19,3 @@ function attributesToPhrase (driverInfo) {
     return (`${driver.name} ${phrase} ${driver.hometown}`)
   })
 }
-
-// Bobby is from Pittsburgh
