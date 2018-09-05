@@ -16,7 +16,7 @@ function nameToAttributes (fullName) {
 function attributesToPhrase () {
   return fullName.map(function (driver) {
     const phrase = is from
-    return (`driver.name + phrase + driver.hometown`)
+    return { driver.name + phrase + driver.hometown }
   })
 }
 
