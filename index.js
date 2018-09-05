@@ -14,12 +14,12 @@ function nameToAttributes (fullName) {
 
 // takes an array of drivers as JavaScript objects and returns a string saying "<NAME OF DRIVER> is from <HOMETOWN>" for each JavaScript object in the array.
 
-// refactored solution 
+// solution#1 refactored 
 function attributesToPhrase (driverInfo) {
   return driverInfo.map(driver => `${driver.name} is from ${driver.hometown}`)
 }
 
-// solution also passes
+// solution#1
 // function attributesToPhrase (driverInfo) {
 //   return driverInfo.map(function (driver) {
 //     const phrase = `is from`
