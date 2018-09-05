@@ -18,6 +18,6 @@ function attributesToPhrase (driverInfo) {
     const phrase = driver.name
     const name = `is from`
     const hometown = driver.hometown
-    return (`${name} ${phrase} ${hometown}`)
+    return (${name} ${phrase} ${hometown})
   })
 }
