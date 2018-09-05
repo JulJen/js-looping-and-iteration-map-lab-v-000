@@ -19,3 +19,11 @@ function attributesToPhrase (driverInfo) {
     return (`${driver.name} ${phrase} ${driver.hometown}`)
   })
 }
+
+
+// function attributesToPhrase (driverInfo) {
+//   return driverInfo.map(function (driver) {
+//     const phrase = `is from`
+//     return (`${driver.name} ${phrase} ${driver.hometown}`)
+//   })
+// }
