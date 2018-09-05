@@ -16,7 +16,7 @@ function nameToAttributes (fullName) {
 function attributesToPhrase () {
   return fullName.map(function (name, hometown) {
     const driverInfo = `${[name]} is from ${[hometown]}`
-    return { firstName: driver.split(" ")[0], lastName: driver.split(" ")[1] }
+    return { `${[name]} is from ${[hometown]}`}
   })
 }
 
