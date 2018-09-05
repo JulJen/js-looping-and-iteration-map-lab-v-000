@@ -17,7 +17,7 @@ function attributesToPhrase (driverInfo) {
   return driverInfo.map(driver => `${driver.name} is from ${driver.hometown}`)
 }
 
-
+// solution also passes
 // function attributesToPhrase (driverInfo) {
 //   return driverInfo.map(function (driver) {
 //     const phrase = `is from`
