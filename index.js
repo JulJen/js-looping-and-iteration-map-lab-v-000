@@ -16,7 +16,7 @@ function nameToAttributes (fullName) {
 function attributesToPhrase (driverInfo) {
   return driverInfo.map(function (driver) {
     const phrase = `is from`
-    return ( `driver.name` + `is from`+ `driver.hometown`)
+    return ( `driver.name` + phrase + `driver.hometown`)
   })
 }
 
